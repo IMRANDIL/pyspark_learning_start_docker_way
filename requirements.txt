@@ -1,0 +1,27 @@
+# Core Spark
+pyspark==3.5.5                   # Spark‑Python bridge :contentReference[oaicite:5]{index=5}
+
+# Data manipulation
+numpy>=1.21,<1.25                 # Arrays & numerics :contentReference[oaicite:6]{index=6}
+pandas>=2.2.0,<2.4.0             # DataFrames & SQL API :contentReference[oaicite:7]{index=7}
+
+# Performance & interoperability
+pyarrow>=11.0.0,<13.0.0           # Arrow-based Pandas ↔ Spark conversions :contentReference[oaicite:8]{index=8}
+six==1.16.0                      # Dependency of many libs :contentReference[oaicite:9]{index=9}
+
+# Delta Lake for ACID tables & time travel
+delta-spark>=3.3.0               # Delta Lake Python API :contentReference[oaicite:10]{index=10}
+
+# Streaming
+kafka-python>=2.1.5              # Kafka client for Structured Streaming :contentReference[oaicite:11]{index=11}
+
+# Cloud integration
+azure-storage-blob>=12.25.1      # Azure Blob SDK for ADF/Datalakes :contentReference[oaicite:12]{index=12}
+
+# Dev & visualization
+jupyterlab>=4.4.0                # Interactive notebooks :contentReference[oaicite:13]{index=13}
+matplotlib>=3.5,<4.0             # Plotting for exploratory analysis :contentReference[oaicite:14]{index=14}
+plotly>=5.0,<6.0                 # Interactive charts
+scipy>=1.7,<1.11                 # Scientific computing
+scikit-learn>=1.0,<1.3           # ML algorithms & pipelines
+mlflow>=2.3.1                    # Experiment tracking & model registry
